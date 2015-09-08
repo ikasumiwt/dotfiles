@@ -3,5 +3,5 @@ for f in .??*
     [[ "$f" == ".git" ]] && continue
     [[ "$f" == ".DS_Store" ]] && continue
 
-    echo "$f"
+    echo "$f is installed"
   done
